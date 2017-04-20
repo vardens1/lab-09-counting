@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var int1 = prompt("Number please...");
+var int2 = prompt("Another number please...");
+var int3 = prompt("Another number please...");
+var int4 = prompt("Another number please...");
+var num1 = parseInt(int1);
+var num2 = parseInt(int2);
+var num3 = parseInt(int3);
+var num4 = parseInt(int4);
+for(var i = 0; i < num1; i++ ) {
+	if (num2 >= num1) {
+		if (num2 >= num3) {
+			if (num2 >= num4) {
+				var large = num2
+				console.log ("The largest number is " + large)
+			} 
+			if (num4 > num2) {
+				var large = num4
+				console.log ("The largest number is " + large)
+			}
+		}
+		if (num3 > num2) {
+			if (num3 >= num4) {
+				var large = num3
+				console.log ("The largest number is " + large)
+			}
+			if (num4 > num3) {
+				var large = num4
+				console.log ("The largest number is " + large)
+			}
+		}
+	}
+	if (num1 > num2) {
+		if (num1 >= num3) {
+			if (num1 < num4) {
+				var large = num1
+				console.log ("The largest number is " + large)
+			}
+			if (num1 >= num4) {
+				var large = num1
+				console.log ("The largest number is " + large)
+			}
+		}
+		if (num3 > num1) {
+			if (num3 >= num4) {
+				var large = num3
+				console.log ("The largest number is " + large)
+			}
+			if (num4 > num3) {
+				var large = num4
+				console.log ("The largest number is " + large)
+			}
+		}
+	}
+}
+</script>
+</body>
+</html>
