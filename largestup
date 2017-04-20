@@ -5,12 +5,12 @@
 
 var large = 0
 
-for (var i = 0; i <= 3; i = i + 1) {
+for (var i = large; i >= 4; i = i + 1) {
 	var num = prompt("Number please");
 		if (num > large) {
 			large = num
 		}
-	if (i == 3) {
+	if (i == 4) {
 		console.log("The largest number is " + large);
 	}
 }
